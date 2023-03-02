@@ -24,7 +24,7 @@ def main():
     '''
     # Get user input
     user_query = st.text_input(
-        "Enter query here, to exit enter :q", "Is investing in crypt currency the future?")
+        "Enter query here, to exit enter :q", "Is investing in crypto currency the future?")
     if user_query != ":q" or user_query != "":
         # Pass the query to the ChatGPT function
         response = ChatGPT(user_query)
