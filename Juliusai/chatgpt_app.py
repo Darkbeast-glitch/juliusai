@@ -1,6 +1,5 @@
 import openai
 import streamlit as st
-import config
 
 st.title("JuliusAI + ChatGPT")
 
@@ -14,7 +13,7 @@ Overall, this web application is a powerful tool that leverages cutting-edge nat
 # Set the model engine and your OpenAI API key
 model_engine = "text-davinci-003"
 # follow step 4 to get a secret_key
-openai.api_key = config.api_key
+openai.api_key = ""
 
 
 def main():
