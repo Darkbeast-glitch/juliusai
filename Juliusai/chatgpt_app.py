@@ -14,7 +14,7 @@ Overall, this web application is a powerful tool that leverages cutting-edge nat
 # Set the model engine and your OpenAI API key
 model_engine = "text-davinci-003"
 # follow step 4 to get a secret_key
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 def main():
