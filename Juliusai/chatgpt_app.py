@@ -2,7 +2,6 @@ import openai
 import streamlit as st
 import config
 
-
 st.title("JuliusAI + ChatGPT")
 
 st.sidebar.header("How i was made")
